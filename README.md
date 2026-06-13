@@ -78,3 +78,17 @@ Es un marco en desarrollo continuo basado en iteración conceptual.
 ## ✦ Nota final
 
 DIR no busca respuestas finales, sino sistemas que permanezcan en transformación.
+
+state = "inicio"
+
+history = []
+
+inputs = ["A", "B", "C", "D"]
+
+for i in inputs:
+    history.append(state)
+    state = state + " -> " + i
+    print("Ω:", state)
+
+print("\nHISTORIA:")
+print(history)
