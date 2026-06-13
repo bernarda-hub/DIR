@@ -1,0 +1,44 @@
+# DIR
+
+A|_3X(IA)
+
+## Overview
+
+DIR is an experimental framework for modeling continuous generative flow in AI systems.  
+It treats outputs not as final responses, but as transitional states in an evolving process.
+
+## Core Concept
+
+DIR = iterative transformation system for conversational and generative AI.
+
+Each interaction modifies the internal state of the system, producing non-final outputs.
+
+## Structure
+
+- REFLEXIÓN: contextual evaluation layer
+- PRODUCCIÓN: output generation layer
+- FLUJO: continuity mechanism between states
+
+## Usage (conceptual implementation)
+
+DIR can be interpreted as:
+
+- A conversational architecture
+- A generative modeling approach
+- A framework for non-terminal reasoning systems
+
+## Example (pseudo-code)
+
+```python id="code01"
+class DIR:
+    def __init__(self, state):
+        self.state = state
+
+    def reflexion(self, input_data):
+        return evaluate_context(self.state, input_data)
+
+    def produccion(self, reflexion_output):
+        return generate_output(reflexion_output)
+
+    def flujo(self, new_state):
+        self.state = new_state
