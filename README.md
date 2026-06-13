@@ -40,4 +40,4 @@ La forma, la tensión y la variación también son parte del comportamiento del 
 
 ## ✦ Estructura conceptual
 
-DIR puede representarse como un ciclo:
+DIR puede representarse como un ciclo
