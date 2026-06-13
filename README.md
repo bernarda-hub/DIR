@@ -40,4 +40,41 @@ La forma, la tensión y la variación también son parte del comportamiento del 
 
 ## ✦ Estructura conceptual
 
-DIR puede representarse como un ciclo
+DIR puede representarse como un ciclo:
+
+Entrada (Σ) ↓ Transformación iterativa (ΔDIR) ↓ Salida (Ω) ↓ Reingreso al sistema (Σ')
+
+Donde la salida no finaliza el proceso, sino que lo reinyecta en una nueva configuración.
+
+---
+
+## ✦ Propiedades del sistema
+
+- Evolución contextual del significado
+- Memoria implícita como residuo de iteraciones previas
+- Inestabilidad controlada como mecanismo creativo
+- Reconfiguración dinámica de reglas internas
+- Producción no determinista de coherencia
+
+---
+
+## ✦ Posibles aplicaciones
+
+- Modelos experimentales de IA generativa
+- Sistemas de escritura o pensamiento asistido
+- Simulación de procesos cognitivos no lineales
+- Marcos teóricos para agentes adaptativos
+- Laboratorios de lenguaje y estética computacional
+
+---
+
+## ✦ Estado del proyecto
+
+DIR no es un producto cerrado.  
+Es un marco en desarrollo continuo basado en iteración conceptual.
+
+---
+
+## ✦ Nota final
+
+DIR no busca respuestas finales, sino sistemas que permanezcan en transformación.
