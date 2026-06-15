@@ -1,0 +1,26 @@
+name: DIR Evolution Check
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  dir-check:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Descargar código DIR
+        uses: actions/checkout@v4
+
+      - name: Mostrar estructura
+        run: |
+          echo "Estado actual de DIR"
+          ls -la
+
+      - name: Ejecutar prueba
+        run: |
+          echo "DIR ejecutando iteración"
