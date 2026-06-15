@@ -1,4 +1,4 @@
-# NOMBRE_DEL_PROYECTO
+# DIR
 
 ## 🧭 Descripción
 Breve explicación del sistema en una o tres líneas.  
